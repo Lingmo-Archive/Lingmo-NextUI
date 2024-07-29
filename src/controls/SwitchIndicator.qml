@@ -20,7 +20,7 @@
  * met: http://www.gnu.org/licenses/gpl-2.0.html.
  */
 import QtQuick 2.4
-import LingmoUI 1.0 as LingmoUI
+import org.kde.lingmoui as LingmoUI
 
 Item {
     id: indicator

@@ -19,11 +19,11 @@
  * ensure the GNU General Public License version 2.0 requirements will be
  * met: http://www.gnu.org/licenses/gpl-2.0.html.
  */
- 
+
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Templates as T
-import LingmoUI 1.0 as LingmoUI
+import org.kde.lingmoui as LingmoUI
 
 T.RadioDelegate {
     id: control

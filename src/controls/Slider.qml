@@ -19,11 +19,11 @@
  * ensure the GNU General Public License version 2.0 requirements will be
  * met: http://www.gnu.org/licenses/gpl-2.0.html.
  */
- 
+
 import QtQuick 2.6
 import QtQuick.Templates 2.3 as T
-import QtGraphicalEffects 1.0
-import LingmoUI 1.0 as LingmoUI
+import Qt5Compat.GraphicalEffects
+import org.kde.lingmoui as LingmoUI
 
 T.Slider {
     id: control

@@ -99,6 +99,30 @@ void LingmoUIPlugin::registerTypes(const char *uri)
     qmlRegisterType(componentUrl(QStringLiteral("Page.qml")), uri, 2, 0, "Page");
     qmlRegisterType(componentUrl(QStringLiteral("ScrollablePage.qml")), uri, 2, 0, "ScrollablePage");
     qmlRegisterType(componentUrl(QStringLiteral("SwipeListItem.qml")), uri, 2, 0, "SwipeListItem");
+    qmlRegisterType(componentUrl(QStringLiteral("Button.qml")), uri, 2, 0, "Button");
+    qmlRegisterType(componentUrl(QStringLiteral("ProgressBar.qml")), uri, 2, 0, "ProgressBar");
+    qmlRegisterType(componentUrl(QStringLiteral("Switch.qml")), uri, 2, 0, "Switch");
+    qmlRegisterType(componentUrl(QStringLiteral("SwitchIndicator.qml")), uri, 2, 0, "SwitchIndicator");
+    qmlRegisterType(componentUrl(QStringLiteral("TabBar.qml")), uri, 2, 0, "TabBar");
+    qmlRegisterType(componentUrl(QStringLiteral("TabButton.qml")), uri, 2, 0, "TabButton");
+    qmlRegisterType(componentUrl(QStringLiteral("TextArea.qml")), uri, 2, 0, "TextArea");
+    qmlRegisterType(componentUrl(QStringLiteral("TextField.qml")), uri, 2, 0, "TextField");
+    qmlRegisterType(componentUrl(QStringLiteral("ToolTip.qml")), uri, 2, 0, "ToolTip");
+    qmlRegisterType(componentUrl(QStringLiteral("StackView.qml")), uri, 2, 0, "StackView");
+    qmlRegisterType(componentUrl(QStringLiteral("Slider.qml")), uri, 2, 0, "Slider");
+    qmlRegisterType(componentUrl(QStringLiteral("ScrollBar.qml")), uri, 2, 0, "ScrollBar");
+    qmlRegisterType(componentUrl(QStringLiteral("RadioIndicator.qml")), uri, 2, 0, "RadioIndicator");
+    qmlRegisterType(componentUrl(QStringLiteral("RadioButton.qml")), uri, 2, 0, "RadioButton");
+    qmlRegisterType(componentUrl(QStringLiteral("MenuItem.qml")), uri, 2, 0, "MenuItem");
+    qmlRegisterType(componentUrl(QStringLiteral("RadioDelegate.qml")), uri, 2, 0, "RadioDelegate");
+    qmlRegisterType(componentUrl(QStringLiteral("Menu.qml")), uri, 2, 0, "Menu");
+    qmlRegisterType(componentUrl(QStringLiteral("Frame.qml")), uri, 2, 0, "Frame");
+    qmlRegisterType(componentUrl(QStringLiteral("DialogButtonBox.qml")), uri, 2, 0, "DialogButtonBox");
+    qmlRegisterType(componentUrl(QStringLiteral("Dialog.qml")), uri, 2, 0, "Dialog");
+    qmlRegisterType(componentUrl(QStringLiteral("ComboBox.qml")), uri, 2, 0, "ComboBox");
+    qmlRegisterType(componentUrl(QStringLiteral("Control.qml")), uri, 2, 0, "Control");
+    qmlRegisterType(componentUrl(QStringLiteral("CheckIndicator.qml")), uri, 2, 0, "CheckIndicator");
+    qmlRegisterType(componentUrl(QStringLiteral("CheckBox.qml")), uri, 2, 0, "CheckBox");
 
     // 2.1
     qmlRegisterType(componentUrl(QStringLiteral("AbstractApplicationItem.qml")), uri, 2, 1, "AbstractApplicationItem");

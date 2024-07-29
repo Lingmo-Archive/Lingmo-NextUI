@@ -131,6 +131,30 @@ ecm_target_qml_sources(LingmoUI SOURCES
     controls/Page.qml
     controls/ScrollablePage.qml
     controls/SwipeListItem.qml
+    controls/Button.qml
+    controls/ProgressBar.qml
+    controls/Switch.qml
+    controls/SwitchIndicator.qml
+    controls/TabBar.qml
+    controls/TabButton.qml
+    controls/TextArea.qml
+    controls/TextField.qml
+    controls/ToolTip.qml
+    controls/StackView.qml
+    controls/Slider.qml
+    controls/ScrollBar.qml
+    controls/RadioIndicator.qml
+    controls/RadioButton.qml
+    controls/MenuItem.qml
+    controls/RadioDelegate.qml
+    controls/Menu.qml
+    controls/Frame.qml
+    controls/DialogButtonBox.qml
+    controls/Dialog.qml
+    controls/ComboBox.qml
+    controls/Control.qml
+    controls/CheckIndicator.qml
+    controls/CheckBox.qml
 )
 
 ecm_target_qml_sources(LingmoUI VERSION 2.1 SOURCES

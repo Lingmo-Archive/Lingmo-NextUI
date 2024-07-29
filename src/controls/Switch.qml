@@ -20,8 +20,8 @@
  * met: http://www.gnu.org/licenses/gpl-2.0.html.
  */
 import QtQuick 2.4
-import QtQuick.Templates 2.12 as T
-import LingmoUI 1.0 as LingmoUI
+import QtQuick.Templates as T
+import org.kde.lingmoui as LingmoUI
 
 T.Switch {
     id: control

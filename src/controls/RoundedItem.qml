@@ -16,7 +16,7 @@ Rectangle {
     LingmoUI.Theme.inherit: true
 
     // color: LingmoUI.Theme.backgroundColor
-    radius: LingmoUI.Units.cornerRadius
+    radius: 16
     color: root.placeholderTextColor
 
     // Behavior on color {

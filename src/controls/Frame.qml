@@ -19,11 +19,11 @@
  * ensure the GNU General Public License version 2.0 requirements will be
  * met: http://www.gnu.org/licenses/gpl-2.0.html.
  */
- 
+
 import QtQuick 2.6
 import QtQuick.Controls 2.3
 import QtQuick.Templates 2.3 as T
-import LingmoUI 1.0 as LingmoUI
+import org.kde.lingmoui as LingmoUI
 
 T.Frame {
     id: control

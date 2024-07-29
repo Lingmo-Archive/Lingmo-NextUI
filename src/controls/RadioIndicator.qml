@@ -22,7 +22,7 @@
 
 import QtQuick 2.9
 import QtQuick.Controls 2.2
-import LingmoUI 1.0 as LingmoUI
+import org.kde.lingmoui as LingmoUI
 
 Rectangle {
     implicitWidth: LingmoUI.Units.iconSizes.small

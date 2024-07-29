@@ -19,12 +19,12 @@
  * ensure the GNU General Public License version 2.0 requirements will be
  * met: http://www.gnu.org/licenses/gpl-2.0.html.
  */
- 
-import QtQuick 2.12
-import QtQuick.Templates 2.12 as T
-import QtGraphicalEffects 1.0
-import LingmoUI 1.0 as LingmoUI
-import QtQuick.Controls.impl 2.12
+
+import QtQuick
+import QtQuick.Templates as T
+import Qt5Compat.GraphicalEffects
+import org.kde.lingmoui as LingmoUI
+import QtQuick.Controls.impl
 
 T.Button {
     id: control

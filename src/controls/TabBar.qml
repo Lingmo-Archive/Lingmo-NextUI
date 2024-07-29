@@ -21,8 +21,8 @@
  */
 import QtQuick 2.9
 import QtQuick.Templates 2.2 as T
-import QtGraphicalEffects 1.0
-import LingmoUI 1.0 as LingmoUI
+import Qt5Compat.GraphicalEffects
+import org.kde.lingmoui as LingmoUI
 
 T.TabBar {
     id: control
